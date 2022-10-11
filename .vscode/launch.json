@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "scala",
+      "request": "attach",
+      "name": "Attach",
+      "buildTarget": "root",
+      "hostName": "127.0.0.1",
+      "port": 5005
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "Play main",
+      "mainClass": "play.core.server.ProdServerStart",
+      "args": [],
+      "jvmOptions": [],
+      "buildTarget": "root"
+    }
+  ]
+}

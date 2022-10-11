@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run project",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "command": "sbt",
+            "type": "shell",
+            "args": ["run", "--jvm-debug", "9999"]
+        }
+    ]
+}
